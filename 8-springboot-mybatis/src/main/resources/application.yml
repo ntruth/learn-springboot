@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/learn-spring?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: xieyun520
+
+mybatis:
+  mapper-locations: classpath*:com/ucmed/mybatis/mapper/*Mapper.xml
+  type-aliases-package: com.ucmed.mybatis.model
+
+#showSql
+logging:
+  level:
+    com:
+      ucmed:
+        mybatis:
+          mapper: debug
+

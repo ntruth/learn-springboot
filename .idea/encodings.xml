@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/1-springboot-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-springboot-mybatis-plus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-springboot-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-springboot-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-springboot-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14-springboot-rocketmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15-springboot-docker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16-springboot-email" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17-springboot-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/18-springboot-elasticsearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19-springboot-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2-springboot-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/20-springboot-task" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/20-springboot-task/springboot-task-quartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/20-springboot-task/springboot-task-xxl-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21-springboot-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/22-springboot-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/23-springboot-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/24-springcloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/25-springboot-oauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/26-springboot-rbac" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-springboot-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-springboot-admin/springboot-admin-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-springboot-admin/springboot-admin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-springboot-single-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-springboot-muti-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-springboot-hikari" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-springboot-hikari" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-springboot-druid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8-springboot-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/9-springboot-tkmybatis" charset="UTF-8" />
+  </component>
+</project>

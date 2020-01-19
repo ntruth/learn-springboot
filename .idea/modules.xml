@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1-springboot-helloworld/1-springboot-helloworld.iml" filepath="$PROJECT_DIR$/1-springboot-helloworld/1-springboot-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-springboot-mybatis-plus/10-springboot-mybatis-plus.iml" filepath="$PROJECT_DIR$/10-springboot-mybatis-plus/10-springboot-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-springboot-jpa/11-springboot-jpa.iml" filepath="$PROJECT_DIR$/11-springboot-jpa/11-springboot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-springboot-redis/12-springboot-redis.iml" filepath="$PROJECT_DIR$/12-springboot-redis/12-springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-springboot-rabbitmq/13-springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/13-springboot-rabbitmq/13-springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-springboot-rocketmq/14-springboot-rocketmq.iml" filepath="$PROJECT_DIR$/14-springboot-rocketmq/14-springboot-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-springboot-docker/15-springboot-docker.iml" filepath="$PROJECT_DIR$/15-springboot-docker/15-springboot-docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-springboot-email/16-springboot-email.iml" filepath="$PROJECT_DIR$/16-springboot-email/16-springboot-email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17-springboot-aop/17-springboot-aop.iml" filepath="$PROJECT_DIR$/17-springboot-aop/17-springboot-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-springboot-elasticsearch/18-springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/18-springboot-elasticsearch/18-springboot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19-springboot-kafka/19-springboot-kafka.iml" filepath="$PROJECT_DIR$/19-springboot-kafka/19-springboot-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-springboot-actuator/2-springboot-actuator.iml" filepath="$PROJECT_DIR$/2-springboot-actuator/2-springboot-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-springboot-task/20-springboot-task.iml" filepath="$PROJECT_DIR$/20-springboot-task/20-springboot-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21-springboot-swagger/21-springboot-swagger.iml" filepath="$PROJECT_DIR$/21-springboot-swagger/21-springboot-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22-springboot-zookeeper/22-springboot-zookeeper.iml" filepath="$PROJECT_DIR$/22-springboot-zookeeper/22-springboot-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23-springboot-dubbo/23-springboot-dubbo.iml" filepath="$PROJECT_DIR$/23-springboot-dubbo/23-springboot-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24-springcloud/24-springcloud.iml" filepath="$PROJECT_DIR$/24-springcloud/24-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/25-springboot-oauth/25-springboot-oauth.iml" filepath="$PROJECT_DIR$/25-springboot-oauth/25-springboot-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/26-springboot-rbac/26-springboot-rbac.iml" filepath="$PROJECT_DIR$/26-springboot-rbac/26-springboot-rbac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/27-springboot-security/27-springboot-security.iml" filepath="$PROJECT_DIR$/27-springboot-security/27-springboot-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-springboot-admin/3-springboot-admin.iml" filepath="$PROJECT_DIR$/3-springboot-admin/3-springboot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4-springboot-single-datasource/4-springboot-single-datasource.iml" filepath="$PROJECT_DIR$/4-springboot-single-datasource/4-springboot-single-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5-springboot-muti-datasource/5-springboot-muti-datasource.iml" filepath="$PROJECT_DIR$/5-springboot-muti-datasource/5-springboot-muti-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6-springboot-hikari/6-springboot-hikari.iml" filepath="$PROJECT_DIR$/6-springboot-hikari/6-springboot-hikari.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7-springboot-druid/7-springboot-druid.iml" filepath="$PROJECT_DIR$/7-springboot-druid/7-springboot-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8-springboot-mybatis/8-springboot-mybatis.iml" filepath="$PROJECT_DIR$/8-springboot-mybatis/8-springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9-springboot-tkmybatis/9-springboot-tkmybatis.iml" filepath="$PROJECT_DIR$/9-springboot-tkmybatis/9-springboot-tkmybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learn-springboot.iml" filepath="$PROJECT_DIR$/.idea/learn-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-springboot-admin/springboot-admin-client/springboot-admin-client.iml" filepath="$PROJECT_DIR$/3-springboot-admin/springboot-admin-client/springboot-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-springboot-admin/springboot-admin-server/springboot-admin-server.iml" filepath="$PROJECT_DIR$/3-springboot-admin/springboot-admin-server/springboot-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-springboot-task/springboot-task-quartz/springboot-task-quartz.iml" filepath="$PROJECT_DIR$/20-springboot-task/springboot-task-quartz/springboot-task-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-springboot-task/springboot-task-xxl-job/springboot-task-xxl-job.iml" filepath="$PROJECT_DIR$/20-springboot-task/springboot-task-xxl-job/springboot-task-xxl-job.iml" />
+    </modules>
+  </component>
+</project>
