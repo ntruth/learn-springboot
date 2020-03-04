@@ -28,7 +28,6 @@
         <option value="$PROJECT_DIR$/14-springboot-rocketmq/pom.xml" />
         <option value="$PROJECT_DIR$/15-springboot-docker/pom.xml" />
         <option value="$PROJECT_DIR$/16-springboot-email/pom.xml" />
-        <option value="$PROJECT_DIR$/17-springboot-aop/pom.xml" />
         <option value="$PROJECT_DIR$/18-springboot-elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/19-springboot-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/20-springboot-task/pom.xml" />

@@ -6,35 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="17-springboot-aop" />
-        <module name="24-springcloud" />
-        <module name="20-springboot-task" />
-        <module name="12-springboot-redis" />
-        <module name="10-springboot-mybatis-plus" />
-        <module name="4-springboot-single-datasource" />
-        <module name="16-springboot-email" />
-        <module name="6-springboot-hikari" />
-        <module name="21-springboot-swagger" />
-        <module name="7-springboot-druid" />
-        <module name="14-springboot-rocketmq" />
-        <module name="2-springboot-actuator" />
-        <module name="8-springboot-mybatis" />
-        <module name="19-springboot-kafka" />
-        <module name="13-springboot-rabbitmq" />
-        <module name="11-springboot-jpa" />
-        <module name="18-springboot-elasticsearch" />
-        <module name="springboot-admin-server" />
-        <module name="5-springboot-muti-datasource" />
-        <module name="1-springboot-helloworld" />
-        <module name="23-springboot-dubbo" />
-        <module name="9-springboot-tkmybatis" />
-        <module name="22-springboot-zookeeper" />
-        <module name="25-springboot-oauth" />
-        <module name="springboot-task-xxl-job" />
-        <module name="springboot-admin-client" />
-        <module name="3-springboot-admin" />
-        <module name="springboot-task-quartz" />
+        <module name="07-springboot-druid" />
         <module name="15-springboot-docker" />
+        <module name="19-springboot-kafka" />
+        <module name="22-springboot-zookeeper" />
+        <module name="08-springboot-mybatis" />
+        <module name="springboot-admin-client" />
+        <module name="21-springboot-swagger" />
+        <module name="18-springboot-elasticsearch" />
+        <module name="06-springboot-hikari" />
+        <module name="03-springboot-admin" />
+        <module name="23-springboot-dubbo" />
+        <module name="11-springboot-jpa" />
+        <module name="09-springboot-tkmybatis" />
+        <module name="25-springboot-oauth" />
+        <module name="14-springboot-rocketmq" />
+        <module name="10-springboot-mybatis-plus" />
+        <module name="springboot-task-quartz" />
+        <module name="02-springboot-actuator" />
+        <module name="16-springboot-email" />
+        <module name="springboot-admin-server" />
+        <module name="01-springboot-helloworld" />
+        <module name="13-springboot-rabbitmq" />
+        <module name="springboot-task-xxl-job" />
+        <module name="12-springboot-redis" />
+        <module name="20-springboot-task" />
+        <module name="24-springcloud" />
+        <module name="05-springboot-muti-datasource" />
+        <module name="04-springboot-single-datasource" />
       </profile>
       <profile name="Annotation profile for rapc" enabled="true">
         <sourceOutputDir name="../26-springboot-rapc/target/generated-sources/annotations" />
@@ -44,7 +43,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="1-springboot-helloworld" target="1.8" />
+      <module name="01-springboot-helloworld" target="1.8" />
+      <module name="02-springboot-actuator" target="1.8" />
+      <module name="03-springboot-admin" target="1.8" />
+      <module name="04-springboot-single-datasource" target="1.8" />
+      <module name="05-springboot-muti-datasource" target="1.8" />
+      <module name="06-springboot-hikari" target="1.8" />
+      <module name="07-springboot-druid" target="1.8" />
+      <module name="08-springboot-mybatis" target="1.8" />
+      <module name="09-springboot-tkmybatis" target="1.8" />
       <module name="1-springboot-single-datasource" target="1.8" />
       <module name="10-springboot-mybatis-plus" target="1.8" />
       <module name="11-springboot-jpa" target="1.8" />
@@ -56,7 +63,6 @@
       <module name="17-springboot-aop" target="1.8" />
       <module name="18-springboot-elasticsearch" target="1.8" />
       <module name="19-springboot-kafka" target="1.8" />
-      <module name="2-springboot-actuator" target="1.8" />
       <module name="2-springboot-muti-datasource" target="1.8" />
       <module name="20-springboot-task" target="1.8" />
       <module name="21-springboot-swagger" target="1.8" />
@@ -65,16 +71,9 @@
       <module name="24-springcloud" target="1.8" />
       <module name="25-springboot-oauth" target="1.8" />
       <module name="26-springboot-rbac" target="1.8" />
-      <module name="3-springboot-admin" target="1.8" />
       <module name="3-springboot-hikari" target="1.8" />
-      <module name="4-springboot-single-datasource" target="1.8" />
       <module name="4.springboot-alibaba-druid" target="1.8" />
-      <module name="5-springboot-muti-datasource" target="1.8" />
       <module name="5-springboot-spring-jdbc" target="1.8" />
-      <module name="6-springboot-hikari" target="1.8" />
-      <module name="7-springboot-druid" target="1.8" />
-      <module name="8-springboot-mybatis" target="1.8" />
-      <module name="9-springboot-tkmybatis" target="1.8" />
       <module name="springboot-admin-client" target="1.8" />
       <module name="springboot-admin-server" target="1.8" />
       <module name="springboot-task-quartz" target="1.8" />
@@ -83,7 +82,15 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="1-springboot-helloworld" options="-parameters" />
+      <module name="01-springboot-helloworld" options="-parameters" />
+      <module name="02-springboot-actuator" options="-parameters" />
+      <module name="03-springboot-admin" options="-parameters" />
+      <module name="04-springboot-single-datasource" options="-parameters" />
+      <module name="05-springboot-muti-datasource" options="-parameters" />
+      <module name="06-springboot-hikari" options="-parameters" />
+      <module name="07-springboot-druid" options="-parameters" />
+      <module name="08-springboot-mybatis" options="-parameters" />
+      <module name="09-springboot-tkmybatis" options="-parameters" />
       <module name="1-springboot-single-datasource" options="-parameters" />
       <module name="10-springboot-mybatis-plus" options="-parameters" />
       <module name="11-springboot-jpa" options="-parameters" />
@@ -95,7 +102,6 @@
       <module name="17-springboot-aop" options="-parameters" />
       <module name="18-springboot-elasticsearch" options="-parameters" />
       <module name="19-springboot-kafka" options="-parameters" />
-      <module name="2-springboot-actuator" options="-parameters" />
       <module name="2-springboot-muti-datasource" options="-parameters" />
       <module name="20-springboot-task" options="-parameters" />
       <module name="21-springboot-swagger" options="-parameters" />
@@ -104,16 +110,9 @@
       <module name="24-springcloud" options="-parameters" />
       <module name="25-springboot-oauth" options="-parameters" />
       <module name="26-springboot-rbac" options="-parameters" />
-      <module name="3-springboot-admin" options="-parameters" />
       <module name="3-springboot-hikari" options="-parameters" />
-      <module name="4-springboot-single-datasource" options="-parameters" />
       <module name="4.springboot-alibaba-druid" options="-parameters" />
-      <module name="5-springboot-muti-datasource" options="-parameters" />
       <module name="5-springboot-spring-jdbc" options="-parameters" />
-      <module name="6-springboot-hikari" options="-parameters" />
-      <module name="7-springboot-druid" options="-parameters" />
-      <module name="8-springboot-mybatis" options="-parameters" />
-      <module name="9-springboot-tkmybatis" options="-parameters" />
       <module name="springboot-admin-client" options="-parameters" />
       <module name="springboot-admin-server" options="-parameters" />
       <module name="springboot-task-quartz" options="-parameters" />
