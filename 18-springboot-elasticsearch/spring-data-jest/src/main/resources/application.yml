@@ -1,0 +1,4 @@
+spring:
+  data:
+    jest:
+      uris: http://x.x.x.x:9200

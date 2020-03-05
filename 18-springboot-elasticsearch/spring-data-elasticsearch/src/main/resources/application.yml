@@ -1,0 +1,6 @@
+spring:
+  data:
+    # Elasticsearch 配置项
+    elasticsearch:
+      cluster-name: elasticsearch # 集群名
+      cluster-nodes: x.x.x.x:9300 # 集群节点
