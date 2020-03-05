@@ -39,6 +39,8 @@
         <option value="$PROJECT_DIR$/24-springcloud/pom.xml" />
         <option value="$PROJECT_DIR$/25-springboot-oauth/pom.xml" />
         <option value="$PROJECT_DIR$/26-springboot-rapc/pom.xml" />
+        <option value="$PROJECT_DIR$/18-springboot-elasticsearch/spring-data-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/18-springboot-elasticsearch/spring-data-jest/pom.xml" />
       </list>
     </option>
   </component>

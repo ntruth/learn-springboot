@@ -28,7 +28,8 @@
     <file url="file://$PROJECT_DIR$/16-springboot-email/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/17-springboot-aop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/18-springboot-elasticsearch" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/18-springboot-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/18-springboot-elasticsearch/spring-data-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/18-springboot-elasticsearch/spring-data-jest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/19-springboot-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/19-springboot-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/20-springboot-task" charset="UTF-8" />

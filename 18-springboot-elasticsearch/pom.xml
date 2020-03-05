@@ -10,9 +10,14 @@
     </parent>
     <groupId>com.ucmed</groupId>
     <artifactId>elasticsearch</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-elasticsearch</name>
+    <version>0.0.1</version>
+    <name>elasticsearch</name>
     <description>Demo project for Spring Boot</description>
+
+    <modules>
+        <module>spring-data-elasticsearch</module>
+        <module>spring-data-jest</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
@@ -34,6 +39,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+<!--        &lt;!&ndash; 自动化配置 Spring Data Jest &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.github.vanroy</groupId>-->
+<!--            <artifactId>spring-boot-starter-data-jest</artifactId>-->
+<!--            <version>3.2.5.RELEASE</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>

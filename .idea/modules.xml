@@ -30,6 +30,8 @@
       <module fileurl="file://$PROJECT_DIR$/26-springboot-rbac/26-springboot-rbac.iml" filepath="$PROJECT_DIR$/26-springboot-rbac/26-springboot-rbac.iml" />
       <module fileurl="file://$PROJECT_DIR$/27-springboot-security/27-springboot-security.iml" filepath="$PROJECT_DIR$/27-springboot-security/27-springboot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learn-springboot.iml" filepath="$PROJECT_DIR$/.idea/learn-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-springboot-elasticsearch/spring-data-elasticsearch/spring-data-elasticsearch.iml" filepath="$PROJECT_DIR$/18-springboot-elasticsearch/spring-data-elasticsearch/spring-data-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-springboot-elasticsearch/spring-data-jest/spring-data-jest.iml" filepath="$PROJECT_DIR$/18-springboot-elasticsearch/spring-data-jest/spring-data-jest.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-springboot-admin/springboot-admin-client/springboot-admin-client.iml" filepath="$PROJECT_DIR$/03-springboot-admin/springboot-admin-client/springboot-admin-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-springboot-admin/springboot-admin-server/springboot-admin-server.iml" filepath="$PROJECT_DIR$/03-springboot-admin/springboot-admin-server/springboot-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/20-springboot-task/springboot-task-quartz/springboot-task-quartz.iml" filepath="$PROJECT_DIR$/20-springboot-task/springboot-task-quartz/springboot-task-quartz.iml" />

@@ -6,34 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="07-springboot-druid" />
-        <module name="15-springboot-docker" />
-        <module name="19-springboot-kafka" />
-        <module name="22-springboot-zookeeper" />
-        <module name="08-springboot-mybatis" />
-        <module name="springboot-admin-client" />
-        <module name="21-springboot-swagger" />
-        <module name="18-springboot-elasticsearch" />
-        <module name="06-springboot-hikari" />
-        <module name="03-springboot-admin" />
-        <module name="23-springboot-dubbo" />
         <module name="11-springboot-jpa" />
-        <module name="09-springboot-tkmybatis" />
-        <module name="25-springboot-oauth" />
-        <module name="14-springboot-rocketmq" />
-        <module name="10-springboot-mybatis-plus" />
-        <module name="springboot-task-quartz" />
-        <module name="02-springboot-actuator" />
-        <module name="16-springboot-email" />
-        <module name="springboot-admin-server" />
-        <module name="01-springboot-helloworld" />
-        <module name="13-springboot-rabbitmq" />
-        <module name="springboot-task-xxl-job" />
-        <module name="12-springboot-redis" />
         <module name="20-springboot-task" />
-        <module name="24-springcloud" />
+        <module name="09-springboot-tkmybatis" />
         <module name="05-springboot-muti-datasource" />
+        <module name="12-springboot-redis" />
+        <module name="10-springboot-mybatis-plus" />
+        <module name="16-springboot-email" />
+        <module name="21-springboot-swagger" />
+        <module name="07-springboot-druid" />
+        <module name="14-springboot-rocketmq" />
+        <module name="08-springboot-mybatis" />
+        <module name="19-springboot-kafka" />
+        <module name="13-springboot-rabbitmq" />
+        <module name="06-springboot-hikari" />
+        <module name="18-springboot-elasticsearch" />
+        <module name="spring-data-jest" />
+        <module name="springboot-admin-server" />
+        <module name="24-springcloud" />
+        <module name="23-springboot-dubbo" />
+        <module name="22-springboot-zookeeper" />
+        <module name="02-springboot-actuator" />
+        <module name="25-springboot-oauth" />
+        <module name="springboot-task-xxl-job" />
+        <module name="springboot-admin-client" />
+        <module name="01-springboot-helloworld" />
+        <module name="03-springboot-admin" />
         <module name="04-springboot-single-datasource" />
+        <module name="springboot-task-quartz" />
+        <module name="spring-data-elasticsearch" />
+        <module name="15-springboot-docker" />
       </profile>
       <profile name="Annotation profile for rapc" enabled="true">
         <sourceOutputDir name="../26-springboot-rapc/target/generated-sources/annotations" />
@@ -74,6 +76,8 @@
       <module name="3-springboot-hikari" target="1.8" />
       <module name="4.springboot-alibaba-druid" target="1.8" />
       <module name="5-springboot-spring-jdbc" target="1.8" />
+      <module name="spring-data-elasticsearch" target="1.8" />
+      <module name="spring-data-jest" target="1.8" />
       <module name="springboot-admin-client" target="1.8" />
       <module name="springboot-admin-server" target="1.8" />
       <module name="springboot-task-quartz" target="1.8" />
@@ -113,6 +117,8 @@
       <module name="3-springboot-hikari" options="-parameters" />
       <module name="4.springboot-alibaba-druid" options="-parameters" />
       <module name="5-springboot-spring-jdbc" options="-parameters" />
+      <module name="spring-data-elasticsearch" options="-parameters" />
+      <module name="spring-data-jest" options="-parameters" />
       <module name="springboot-admin-client" options="-parameters" />
       <module name="springboot-admin-server" options="-parameters" />
       <module name="springboot-task-quartz" options="-parameters" />
