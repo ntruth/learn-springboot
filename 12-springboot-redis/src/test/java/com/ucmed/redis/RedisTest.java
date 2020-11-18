@@ -3,7 +3,9 @@ package com.ucmed.redis;
 import com.alibaba.fastjson.JSONObject;
 import com.ucmed.redis.model.User;
 import com.ucmed.redis.utils.RedisUtils;
+import org.junit.AfterClass;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,17 +20,17 @@ import java.util.concurrent.TimeUnit;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class RedisTest {
-//    @Autowired
-//    private RedisTemplate<String, Object> objectRedisTemplate;
-//
-//    @Autowired
-//    private RedisTemplate<Object, Object> fastRedisTemplate;
-//
-//    @Autowired
-//    private RedisTemplate<String, User> userRedisTemplate;
 
     @Autowired
     private RedisUtils redisUtils;
+
+    @BeforeClass
+    public static void setUpBeforeClass() throws Exception {
+    }
+
+    @AfterClass
+    public static void tearDownAfterClass() throws Exception {
+    }
 
     private User user;
 
@@ -56,10 +58,9 @@ public class RedisTest {
         redisUtils.hasKey("a");
 
         // 设置key-vlue,并设置过期时间
-        redisUtils.setEx("user", JSONObject.toJSONString(user), 5, TimeUnit.SECONDS);
+        redisUtils.setEx("user", JSONObject.toJSONString(user), 5);
         System.out.println(redisUtils.get("user"));
         //redisUtils.delete("user");
-
     }
 
     @Before

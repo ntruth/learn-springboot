@@ -37,21 +37,21 @@
 //    }
 //
 //
-////    /**
-////     *   自定义Redis序列化器(jackson)
-////     */
-////    @Bean
-////    public RedisTemplate<String, Object> objectRedisTemplate(RedisConnectionFactory factory) {
-////        RedisTemplate<String, Object> template = new RedisTemplate<>();
-////        // 关联
-////        template.setConnectionFactory(factory);
-////        // 设置key的序列化器
-////        template.setKeySerializer(new StringRedisSerializer());
-////        // 设置value的序列化器
-////        template.setValueSerializer(new Jackson2JsonRedisSerializer<>(Object.class));
-////
-////        return template;
-////    }
+//    /**
+//     *   自定义Redis序列化器(jackson)
+//     */
+//    @Bean
+//    public RedisTemplate<String, Object> objectRedisTemplate(RedisConnectionFactory factory) {
+//        RedisTemplate<String, Object> template = new RedisTemplate<>();
+//        // 关联
+//        template.setConnectionFactory(factory);
+//        // 设置key的序列化器
+//        template.setKeySerializer(new StringRedisSerializer());
+//        // 设置value的序列化器
+//        template.setValueSerializer(new Jackson2JsonRedisSerializer<>(Object.class));
+//
+//        return template;
+//    }
 //
 //    /**
 //     * 配置USER的自定义序列化器
