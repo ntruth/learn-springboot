@@ -32,8 +32,8 @@ public class HikariApplication implements CommandLineRunner {
 
 	public void select() {
 		log.info("开始查询操作--------");
-		log.info("sssss:" + jdbcTemplate.queryForObject("select count(*) from foo", Long.class));
-		log.info("aaaaa:" + jdbcTemplate.queryForList("select name from foo", String.class));
+		log.info("统计条数:" + jdbcTemplate.queryForObject("select count(*) from foo", Long.class));
+		log.info("查询:" + jdbcTemplate.queryForList("select name from foo", String.class));
 		log.info("结束查询操作--------");
 	}
 }
