@@ -1,0 +1,18 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  # 是否开启security登录
+  security:
+    enabled: false
+# 设置security登录密码
+#spring:
+#  security:
+#    user:
+#      name: admin
+#      password: 123456
+server:
+  # 适用于本地调试，防止端口冲突
+  #  port: ${random.int[8000,9000]}
+  port: 8080
