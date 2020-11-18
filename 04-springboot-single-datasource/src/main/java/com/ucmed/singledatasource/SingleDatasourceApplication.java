@@ -15,13 +15,14 @@ public class SingleDatasourceApplication implements CommandLineRunner {
 		SpringApplication.run(SingleDatasourceApplication.class, args);
 	}
 
-
 	@Autowired
 	DataSource dataSource;
 
 	@Override
 	public void run(String... args) {
+		System.out.println("加载配置中.........");
 		showConnection();
+		System.out.println("加载配置完毕.........");
 	}
 
 	public void showConnection() {
